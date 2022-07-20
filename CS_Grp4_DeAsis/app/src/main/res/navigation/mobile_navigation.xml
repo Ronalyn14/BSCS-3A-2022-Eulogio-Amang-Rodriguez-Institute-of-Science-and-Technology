@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.banking.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.banking.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_bills"
+        android:name="com.example.banking.ui.bills.BillsFragment"
+        android:label="@string/menu_bills"
+        tools:layout="@layout/fragment_bills" />
+
+    <fragment
+        android:id="@+id/nav_fund"
+        android:name="com.example.banking.ui.funds.FundsFragment"
+        android:label="@string/menu_funds"
+        tools:layout="@layout/fragment_funds" />
+
+    <fragment
+        android:id="@+id/nav_transaction"
+        android:name="com.example.banking.ui.transaction.TransactionFragment"
+        android:label="@string/menu_trans"
+        tools:layout="@layout/fragment_transaction" />
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.example.banking.ui.appointment.AppointFragment"
+        android:label="@string/menu_appoint"
+        tools:layout="@layout/fragment_appoint" />
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.example.banking.ui.add.AddFragment"
+        android:label="@string/menu_add"
+        tools:layout="@layout/fragment_add" />
+
+
+</navigation>
